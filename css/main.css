@@ -10,7 +10,7 @@ body{
 .container{
     margin-top: 135px;
     background-color: white;
-    margin: 20px 90px;
+    margin: 40px 220px;
 }
 
 
@@ -65,16 +65,37 @@ body{
     font-weight: 700;
     font-size: 30px;
     /* background-color: #FAFAFA; */
-    background-color: bisque;
+    background-color: #FAFAFA;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     
 }
 .donate-amount{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
+
+.other-amount{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.amount-field{
+    margin-bottom: 20px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+}
+  
+
+  
 
 /* .top-banner-container {
     width: 100%;
