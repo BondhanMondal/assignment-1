@@ -10,7 +10,7 @@ body{
 .container{
     margin-top: 135px;
     background-color: white;
-    margin: 40px 220px;
+    margin: 40px 157px;
 }
 
 
@@ -105,8 +105,50 @@ body{
     display: flex;
     justify-content: center;
 }
-  
 
+/*-------------------------------------- donate plan area------------------------------------- */
+
+.donate-plan-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.plan-card{
+    width: 360px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-left: 24px;
+}
+.plan-card img{
+    width: 58px;
+    height: 47;
+    margin-bottom: 31px;
+}
+.plan-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+    margin-bottom: 16px;
+}
+.plan-card p{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+}
+.bg1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.bg2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.bg3{
+    background-color: rgba(232, 137, 22, 0.107);
+}
   
 
 /* .top-banner-container {
