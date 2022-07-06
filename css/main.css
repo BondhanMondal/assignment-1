@@ -104,8 +104,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-radius: 5px;
     
+}
+.focused-container{
+    color: #FF5959;
+    height: 123px;
+    width: 135px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    background-color: #FFEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .donate-amount{
     margin-top: 50px;
