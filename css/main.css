@@ -21,11 +21,20 @@ body{
 }
 
 .button {
-    text-decoration: none;
+    border: 0;
     background-image: linear-gradient(tomato, rgb(236, 4, 4));
     color: white;
     font-weight: 400;
     padding: 10px 40px;
+    border-radius: 5px;
+
+}
+.button2{
+    border: 0;
+    background-image: linear-gradient(tomato, rgb(236, 4, 4));
+    color: white;
+    font-weight: 400;
+    padding: 20px 40px;
     border-radius: 5px;
 
 }
@@ -38,7 +47,14 @@ body{
 .blog-title{
     font-size: 45px;
     font-weight: 700;
-    padding: 10px;
+    /* padding: 10px; */
+    margin-bottom: 20px;
+}
+.left-side p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
 }
 
 
@@ -162,7 +178,30 @@ body{
 .bg3{
     background-color: rgba(232, 137, 22, 0.107);
 }
-  
+/*---------------------------------------- blog post 1--------------------------------------- */
+.blog-img{
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 456px;
+    height: 374px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.top-blog{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
 
 /* .top-banner-container {
     width: 100%;
