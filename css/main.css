@@ -56,6 +56,9 @@ body{
     font-weight: 400;
     color: #707070;
 }
+.orange-color{
+    color: orange;
+}
 
 
 /*---------------------------------------- top banner--------------------------------------- */
@@ -198,6 +201,36 @@ body{
     justify-content: space-between;
 }
 
+
+/*-------------------------------------- Contact us area------------------------------------- */
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.contact-left-side{
+    width: 40%;
+}
+.contact-left-side img{
+    width: 90%;
+}
+.contact-right-side{
+    width: 60%;
+}
+.contact {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 40px gray;
+    text-align: justify;
+
+}
+.contact h4{
+    margin-bottom: 12px;
+}
 
 
 
