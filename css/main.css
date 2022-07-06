@@ -1,0 +1,9 @@
+/* -----------------removing default margin and padding--------- */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/*---------------------------------------- Common css--------------------------------------- */
+body{
+    font-family: 'Roboto', sans-serif;
+}
