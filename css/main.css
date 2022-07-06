@@ -42,6 +42,7 @@ body{
     font-weight: 400;
     padding: 10px 40px;
     border-radius: 5px;
+    
 }
 
 /*--------------------------------------- Donet amount section---------------------------------- */
@@ -92,6 +93,17 @@ body{
     text-decoration: none;
     border: none;
     border-bottom: 2px solid #DADADA;
+}
+.donate-button {
+    text-decoration: none;
+    width: 160px;
+    height: 56px;
+}
+.button-container{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
   
 
